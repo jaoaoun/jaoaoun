@@ -1,0 +1,20 @@
+.ant-layout-sider-zero-width-trigger{
+    top: 0;
+    background: rgb(228,186,162);
+}
+
+.ant-layout-sider-children{
+    background-color: white;
+}
+
+.site-layout-sub-header-background {
+    background: #fff;
+  }
+  
+  .site-layout-background {
+    background: #fff;
+  }
+
+  .body{
+      background-color: white;
+  }
