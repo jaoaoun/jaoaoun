@@ -4,6 +4,12 @@
   line-height: 160px;
   background: rgb(217,173,164);
   overflow: hidden;
+  /* background-image: url("../img/home2.jpg");
+  background-size: 300px 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
 }
 
 .ant-carousel .slick-slide div {
@@ -16,3 +22,6 @@
   
 }
 
+.img-home{
+  
+}

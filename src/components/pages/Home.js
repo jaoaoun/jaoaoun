@@ -1,7 +1,8 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import '../../css/Home.css'
-import { Carousel, Button } from 'antd'
+import { Carousel, Button, Card, Col, Row } from 'antd'
+import { DownloadOutlined } from '@ant-design/icons'
 
 export const Home = () => {
   return (
@@ -12,17 +13,114 @@ export const Home = () => {
       <div>
         <Carousel dotPosition="right">
           <div>
-            <p style={{ fontSize: '40px', textAlign: 'left', paddingLeft: '20px', height: '30px' }}>Hello</p>
-            <p style={{ fontSize: '35px', textAlign: 'left', paddingLeft: '20px', height: '30px' }}>Welcome to My Profile!!</p>
-            <Button 
-            style={{bottom:'-280px'}} 
-            shape="round"
-            size= "large"
-            >Resume(.pdf)</Button>
+            <p style={{ fontSize: '40px', textAlign: 'left', paddingLeft: '20px', height: '10px' }}>Hello</p>
+            <p style={{ fontSize: '35px', textAlign: 'left', paddingLeft: '20px', height: '10px' }}>
+              Welcome to My Profile!!
+            </p>
+            <p
+              style={{
+                fontSize: '18px',
+                textAlign: 'left',
+                paddingLeft: '20px',
+                height: '10px',
+                paddingBottom: '80px',
+                color:'brown'
+              }}
+            >
+              My favorites : Milktea | Ice cream | Strawberry cheesecake frappe | Salmon sashimi | Music | Take a photo
+            </p>
+            <Row >
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/GCPR3484.JPEG')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/au2_n.jpg')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/ch_n.jpg')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+            </Row>
+
+            <Button style={{ bottom: '300px' }} shape="round" size="large">
+              <DownloadOutlined />
+              <a href="/public/files/Resume_Nattida_P.pdf" target="_blank" download>
+                Resume(.pdf)
+              </a>
+            </Button>
           </div>
           <div>
             <p style={{ fontSize: '40px', textAlign: 'left', paddingLeft: '20px', height: '30px' }}>こんにちは</p>
-            <p style={{ fontSize: '35px', textAlign: 'left', paddingLeft: '20px', height: '30px' }}>私のプロフィールへようこそ!!</p>
+            <p style={{ fontSize: '35px', textAlign: 'left', paddingLeft: '20px', height: '30px' }}>
+              私のプロフィールへようこそ!!
+            </p>
+            <p
+              style={{
+                fontSize: '18px',
+                textAlign: 'left',
+                paddingLeft: '20px',
+                height: '10px',
+                paddingBottom: '80px',
+                color:'brown'
+              }}
+            >
+              私のお気に入り : | ミルクティ | アイスクリーム | いちごチーズケーキフラッペ | 鮭の刺身 | 音楽を聴く | 写真を撮る
+            </p>
+            <Row >
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/ice.jpg')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/au2_n.jpg')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+              <Col xs={8}>
+                <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
+                  <img
+                    src={require('../../img/sal2_n.jpg')}
+                    alt="logo"
+                    align="center"
+                    style={{ height: '200px', width: '300px' }}
+                  />
+                </Card>
+              </Col>
+              
+            </Row> 
+
+
           </div>
         </Carousel>
       </div>
