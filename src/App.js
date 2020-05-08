@@ -1,11 +1,31 @@
 import React from 'react';
 import './App.css';
-import ProfileBar from './layout/ProfileBar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import ProfileBar from './components/layout/ProfileBar';
+import Home from './components/pages/Home'
+import About from './components/pages/About'
+
 
 function App() {
   return (
     
-      <ProfileBar/>
+      <Router>
+        <div>
+          <Switch>
+            <Route path="/">
+              <ProfileBar/>
+            </Route>
+            <Route path="/Home">
+              <Home/>
+            </Route>
+            <Route path="/About">
+              <About/>
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+
+      
     
   );
 }
