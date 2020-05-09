@@ -7,7 +7,7 @@ import MenuItem from 'antd/lib/menu/MenuItem'
 import Home from '../pages/Home'
 import About from '../pages/About'
 import { Link, Route } from 'react-router-dom'
-import { LinkedinOutlined } from '@ant-design/icons'
+// import { LinkedinOutlined, GithubOutlined  } from '@ant-design/icons'
 
 export const ProfileBar = () => {
   const imgProfileStyle = {
@@ -20,6 +20,7 @@ export const ProfileBar = () => {
   // const HomeClick = () => {
   //   push('/Home')
   // }
+  
 
   return (
     <div>
@@ -76,15 +77,13 @@ export const ProfileBar = () => {
               </div>
             </Content>
           </div>
-          <Footer style={{ textAlign: 'center' }}>
-            <Row align="center">
-              <Col >
+          <Footer style={{ paddingTop: 0, paddingRight:'24px' }}>
+            <Row align="center" no-gutter style={{ paddingBottom: 0 }}>
+              <Col>
                 <p>©2020 Created by NtdPst</p>
               </Col>
-              <Col >
-                <LinkedinOutlined style={{fontSize:'25px', textAlign: 'right'}} />
-              </Col>
             </Row>
+            
           </Footer>
         </Layout>
       </Layout>
