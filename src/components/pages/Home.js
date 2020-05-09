@@ -100,7 +100,7 @@ export const Home = () => {
               <Col xs={8}>
                 <Card style={{ height: '250px', width: '350px', margin: '25px' }}>
                   <img
-                    src={require('../../img/au2_n.jpg')}
+                    src={require('../../img/home2.jpg')}
                     alt="logo"
                     align="center"
                     style={{ height: '200px', width: '300px' }}
