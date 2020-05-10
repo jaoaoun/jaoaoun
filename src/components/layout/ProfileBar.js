@@ -6,6 +6,10 @@ import MenuItem from 'antd/lib/menu/MenuItem'
 // import { useHistory } from 'react-router-dom'
 import Home from '../pages/Home'
 import About from '../pages/About'
+import Skills from '../pages/Skills'
+import Education from '../pages/Education'
+import Experience from '../pages/Experience'
+import Contact from '../pages/Contact'
 import { Link, Route } from 'react-router-dom'
 // import { LinkedinOutlined, GithubOutlined  } from '@ant-design/icons'
 
@@ -43,23 +47,31 @@ export const ProfileBar = () => {
           <Menu
             backgroundColor="rgb(236,231,225)"
             mode="inline"
-            // defaultSelectedKeys={['6']}
+            defaultSelectedKeys={['1']}
           >
             <MenuItem
               key="1"
               // onClick={HomeClick}
             >
-              <Link to="/Home" />
+              <Link to= "/Home" />
               <p>Home</p>
             </MenuItem>
             <MenuItem key="2">
-              <Link to="/About" />
+              <Link to="About" />
               About
             </MenuItem>
-            <MenuItem key="3">Skills</MenuItem>
-            <MenuItem key="4">Education</MenuItem>
-            <MenuItem key="5">Experience</MenuItem>
-            <MenuItem key="6">Contact</MenuItem>
+            <MenuItem key="3">
+              <Link to="/Skills"/>
+              Skills</MenuItem>
+            <MenuItem key="4">
+            <Link to="/Education"/>
+              Education</MenuItem>
+            <MenuItem key="5">
+            <Link to="/Experience"/>
+              Experience</MenuItem>
+            <MenuItem key="6">
+            <Link to="/Contact"/>
+              Contact</MenuItem>
           </Menu>
         </Sider>
         <Layout>
@@ -68,12 +80,20 @@ export const ProfileBar = () => {
             <Content style={{ padding: 0 }}>
               <div className="site-layout-background" style={{ padding: 24, minHeight: 720 }}>
                 {/* <React.Fragment>
-                <Home/>
-                <About/>
+                 
+                <Home id={'section1'} />
+                <About id={'section2'} />
+                
+                
               </React.Fragment> */}
-
-                <Route path="/Home" component={Home} />
+              {/* <Route path="/" component={Home}/> */}
+               
+                <Route path="/Home" component={Home} key="1" />
                 <Route path="/About" component={About} />
+                <Route path="/Skills" component={Skills}/>
+                <Route path="/Education" component={Education} />
+                <Route path="/Experience" component={Experience} />
+                <Route path="/Contact" component={Contact} />
               </div>
             </Content>
           </div>
