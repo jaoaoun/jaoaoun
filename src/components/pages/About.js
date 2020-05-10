@@ -15,10 +15,10 @@ export const About = () => {
               src={require('../../img/about1.jpg')}
               alt="logo"
               align="center"
-              style={{ height: '447px', width: '500px', marginLeft: '25px', marginRight: '15px', marginTop: '30px' }}
+              style={{ height: '420px', width: '500px', marginLeft: '25px', marginRight: '15px', marginTop: '30px' }}
             />
           </Col>
-          <Col>
+          <Col >
             <Card
               title="About Me"
               style={{ height: 'auto', width: '650px', marginTop: '30px' }}
