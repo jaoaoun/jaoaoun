@@ -15,8 +15,10 @@ export const Skills = () => {
   }
 
   return (
-    <div>
-      <h1>Skills</h1>
+    <div style={{ marginBottom: '70px' }}>
+      <div style={{ marginBottom: '35px' }}>
+        <h1 style={{ fontSize: '15px' }}>Skills</h1>
+      </div>
       <div>
         <Card title="Computer" style={{ margin: '30px' }} headStyle={{ backgroundColor: '#EFCBC3' }}>
           <Card.Grid style={gridStyle}>

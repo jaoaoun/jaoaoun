@@ -3,12 +3,14 @@ import { Row, Col } from 'antd'
 
 export const Contact = () => {
   return (
-    <div>
-      <h1>Contact</h1>
+    <div style={{ marginBottom: '70px' }}>
+      <div style={{ marginBottom: '35px' }}>
+        <h1 style={{ fontSize: '15px' }}>Contact</h1>
+      </div>
       <div>
         <Row>
           <Col flex="100px">
-            <div style={{ marginLeft: '150px', marginTop: '100px' }}>
+            <div style={{ marginLeft: '150px', marginTop: '30px' }}>
               <img src={require('../../img/mail.jpg')} alt="img-contact" style={{ height: '150px', width: 'auto' }} />
             </div>
           </Col>
@@ -35,6 +37,7 @@ export const Contact = () => {
                 style={{ fontSize: '20px', marginBottom: '10px' }}
                 href="https://www.linkedin.com/in/nattida-pasutham-204a5b186/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Nattida Pasutham
               </a>
@@ -57,6 +60,7 @@ export const Contact = () => {
                 style={{ fontSize: '20px', marginBottom: '10px' }}
                 href="https://github.com/jaoaoun"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Nattida Pasutham
               </a>

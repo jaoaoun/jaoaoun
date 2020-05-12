@@ -3,8 +3,10 @@ import { Timeline, Card } from 'antd'
 import '../../css/Education.css'
 export const Education = () => {
   return (
-    <div>
-      <h1>Education</h1>
+    <div style={{marginBottom:'70px'}}>
+      <div style={{marginBottom:'35px'}}>
+        <h1 style={{fontSize:'15px'}}>Education</h1>
+      </div>
       <div >
         <div style={{ marginTop: '20px' }}>
           <Card style={{ width: '900px', border: '0' ,textAlign:'center'}}>
