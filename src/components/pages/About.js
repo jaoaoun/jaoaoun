@@ -6,16 +6,18 @@ import { Card, Typography, Col, Row } from 'antd'
 export const About = () => {
   const { Text } = Typography
   return (
-    <section id="About" >
+    
       <div style={{marginBottom:'70px'}}>
         <div style={{marginBottom:'35px'}}>
-          <h1 style={{fontSize:'15px'}}>About</h1>
+          <h1 style={{fontSize:'15px'}}
+          //  href="/About"
+          >About</h1>
         </div>
       <div>
         <Row>
           <Col>
             <img
-              src={require('../../img/about1.jpg')}
+              src={require('../../assets/img/about1.jpg')}
               alt="logo"
               align="center"
               style={{ height: '420px', width: '500px', marginLeft: '25px', marginRight: '15px', marginTop: '15px' }}
@@ -53,7 +55,7 @@ export const About = () => {
         </Row>
       </div>
     </div>
-    </section>
+    
     
   )
 }

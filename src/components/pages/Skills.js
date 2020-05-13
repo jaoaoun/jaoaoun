@@ -25,7 +25,7 @@ export const Skills = () => {
             Microsoft office
             <br />{' '}
             <img
-              src={require('../../img/micro-off.JPG')}
+              src={require('../../assets/img/micro-off.JPG')}
               alt="img-skills"
               style={{ height: 'auto', width: '250px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -34,7 +34,7 @@ export const Skills = () => {
             Adobe photoshop
             <br />{' '}
             <img
-              src={require('../../img/adobe-ps.JPG')}
+              src={require('../../assets/img/adobe-ps.JPG')}
               alt="img-skills"
               style={{ height: 'auto', width: '150px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -43,7 +43,7 @@ export const Skills = () => {
             SVN
             <br />{' '}
             <img
-              src={require('../../img/SVN.jpg')}
+              src={require('../../assets/img/SVN.jpg')}
               alt="img-skills"
               style={{ height: 'auto', width: '150px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -52,7 +52,7 @@ export const Skills = () => {
             Matlab
             <br />{' '}
             <img
-              src={require('../../img/Matlab.jpg')}
+              src={require('../../assets/img/Matlab.jpg')}
               alt="img-skills"
               style={{ height: 'auto', width: '150px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -61,7 +61,7 @@ export const Skills = () => {
             HTML&CSS&JavaScript
             <br />{' '}
             <img
-              src={require('../../img/hcj.jpg')}
+              src={require('../../assets/img/hcj.jpg')}
               alt="img-skills"
               style={{ height: 'auto', width: '250px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -70,7 +70,7 @@ export const Skills = () => {
             Bootstrap
             <br />{' '}
             <img
-              src={require('../../img/boot.jpg')}
+              src={require('../../assets/img/boot.jpg')}
               alt="img-skills"
               style={{ height: 'auto', width: '150px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -79,12 +79,12 @@ export const Skills = () => {
             React&Reactstrap
             <br />{' '}
             <img
-              src={require('../../img/React.png')}
+              src={require('../../assets/img/React.png')}
               alt="img-skills"
               style={{ height: 'auto', width: '100px', marginTop: '20px', objectFit: 'cover' }}
             />
             <img
-              src={require('../../img/reactstrap.JPG')}
+              src={require('../../assets/img/reactstrap.JPG')}
               alt="img-skills"
               style={{ height: 'auto', width: '100px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -93,7 +93,7 @@ export const Skills = () => {
             Ant design
             <br />{' '}
             <img
-              src={require('../../img/antd.png')}
+              src={require('../../assets/img/antd.png')}
               alt="img-skills"
               style={{ height: 'auto', width: '150px', marginTop: '20px', objectFit: 'cover' }}
             />
@@ -109,7 +109,7 @@ export const Skills = () => {
             Korean(Basic)
             <br />{' '}
             <img
-              src={require('../../img/Cer-ko.JPG')}
+              src={require('../../assets/img/Cer-ko.JPG')}
               alt="img-skills"
               style={{ height: 'auto', width: '200px', marginTop: '20px', objectFit: 'cover' }}
             />

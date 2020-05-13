@@ -25,7 +25,7 @@ export const Experience = () => {
               <br />
               <div align="center">
                 <img
-                  src={require('../../img/webresume.JPG')}
+                  src={require('../../assets/img/webresume.JPG')}
                   alt="img-exp"
                   style={{ height: '300px', width: 'auto', marginTop: '5px', objectFit: 'cover' }}
                 />
@@ -49,7 +49,7 @@ export const Experience = () => {
               <br />
               <div align="center">
                 <img
-                  src={require('../../img/CAN.JPG')}
+                  src={require('../../assets/img/CAN.JPG')}
                   alt="img-exp"
                   style={{ height: 'auto', width: '250px', marginTop: '5px', objectFit: 'cover' }}
                 />
@@ -67,7 +67,7 @@ export const Experience = () => {
               <br />
               <div align="center">
                 <img
-                  src={require('../../img/project.jpg')}
+                  src={require('../../assets/img/project.jpg')}
                   alt="img-exp"
                   style={{ height: 'auto', width: '500px', marginTop: '5px', objectFit: 'cover' }}
                 />

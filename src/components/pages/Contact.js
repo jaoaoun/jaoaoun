@@ -11,7 +11,7 @@ export const Contact = () => {
         <Row>
           <Col flex="100px">
             <div style={{ marginLeft: '150px', marginTop: '30px' }}>
-              <img src={require('../../img/mail.jpg')} alt="img-contact" style={{ height: '150px', width: 'auto' }} />
+              <img src={require('../../assets/img/mail.jpg')} alt="img-contact" style={{ height: '150px', width: 'auto' }} />
             </div>
           </Col>
           <Col>
@@ -25,7 +25,7 @@ export const Contact = () => {
           <Col flex="100px">
             <div style={{ marginLeft: '170px', marginTop: '100px' }}>
               <img
-                src={require('../../img/linkin.png')}
+                src={require('../../assets/img/linkin.png')}
                 alt="img-contact"
                 style={{ height: '150px', width: 'auto' }}
               ></img>
@@ -48,7 +48,7 @@ export const Contact = () => {
           <Col flex="100px">
             <div style={{ marginLeft: '170px', marginTop: '100px' }}>
               <img
-                src={require('../../img/github.png')}
+                src={require('../../assets/img/github.png')}
                 alt="img-contact"
                 style={{ height: '150px', width: 'auto' }}
               ></img>
