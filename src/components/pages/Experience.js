@@ -7,7 +7,7 @@ export const Experience = () => {
   const { Text } = Typography
 
   return (
-    <div style={{ marginBottom: '70px' }}>
+    <div section="experience" id="experience" style={{ marginBottom: '50px' }}>
       <div style={{ marginBottom: '35px' }}>
         <h1 style={{ fontSize: '15px' }}>Experience</h1>
       </div>
@@ -30,8 +30,11 @@ export const Experience = () => {
                   style={{ height: '300px', width: 'auto', marginTop: '5px', objectFit: 'cover' }}
                 />
               </div>
-              <br />• Collaboration with college junior in the project SmartParking : design web using by React &
-              Reactstrap
+              <br />• Collaboration with college junior in the project {''}
+              <a href="http://34.87.153.90:3000/" target="_blank" rel="noopener noreferrer">
+                SmartParking
+              </a>{' '}
+              : design web using by React & Reactstrap
             </Text>
           </Panel>
           <Panel header="July 2019 - March 2020 | Work" key="2" className="site-collapse-custom-panel">

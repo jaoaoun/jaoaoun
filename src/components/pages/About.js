@@ -6,13 +6,10 @@ import { Card, Typography, Col, Row } from 'antd'
 export const About = () => {
   const { Text } = Typography
   return (
-    
-      <div style={{marginBottom:'70px'}}>
-        <div style={{marginBottom:'35px'}}>
-          <h1 style={{fontSize:'15px'}}
-          //  href="/About"
-          >About</h1>
-        </div>
+    <div section="about" id="about" style={{ marginBottom: '50px' }}>
+      <div style={{ marginBottom: '35px' }}>
+        <h1 style={{ fontSize: '15px' }}>About</h1>
+      </div>
       <div>
         <Row>
           <Col>
@@ -23,7 +20,7 @@ export const About = () => {
               style={{ height: '420px', width: '500px', marginLeft: '25px', marginRight: '15px', marginTop: '15px' }}
             />
           </Col>
-          <Col >
+          <Col>
             <Card
               title="About Me"
               style={{ height: 'auto', width: '650px', marginTop: '15px' }}
@@ -55,8 +52,6 @@ export const About = () => {
         </Row>
       </div>
     </div>
-    
-    
   )
 }
 

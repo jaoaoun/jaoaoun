@@ -15,7 +15,7 @@ export const Skills = () => {
   }
 
   return (
-    <div style={{ marginBottom: '70px' }}>
+    <div section="skills" id="skills" style={{ marginBottom: '70px' }}>
       <div style={{ marginBottom: '35px' }}>
         <h1 style={{ fontSize: '15px' }}>Skills</h1>
       </div>

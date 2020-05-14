@@ -3,7 +3,7 @@ import { Row, Col } from 'antd'
 
 export const Contact = () => {
   return (
-    <div style={{ marginBottom: '70px' }}>
+    <div section="contact" id="contact" style={{ marginBottom: '50px' }}>
       <div style={{ marginBottom: '35px' }}>
         <h1 style={{ fontSize: '15px' }}>Contact</h1>
       </div>
@@ -11,7 +11,11 @@ export const Contact = () => {
         <Row>
           <Col flex="100px">
             <div style={{ marginLeft: '150px', marginTop: '30px' }}>
-              <img src={require('../../assets/img/mail.jpg')} alt="img-contact" style={{ height: '150px', width: 'auto' }} />
+              <img
+                src={require('../../assets/img/mail.jpg')}
+                alt="img-contact"
+                style={{ height: '150px', width: 'auto' }}
+              />
             </div>
           </Col>
           <Col>
