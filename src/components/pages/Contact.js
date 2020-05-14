@@ -19,7 +19,7 @@ export const Contact = () => {
             </div>
           </Col>
           <Col>
-            <div style={{ marginLeft: '50px', marginTop: '100px' }}>
+            <div style={{ marginLeft: '50px', marginTop: '60px' }}>
               <p style={{ fontSize: '20px', marginBottom: '10px' }}>ntd_pst@hotmail.com</p>
               <p style={{ fontSize: '20px', marginBottom: '10px' }}>ntdpst21@gmail.com</p>
             </div>
@@ -27,7 +27,7 @@ export const Contact = () => {
         </Row>
         <Row>
           <Col flex="100px">
-            <div style={{ marginLeft: '170px', marginTop: '100px' }}>
+            <div style={{ marginLeft: '170px', marginTop: '70px' }}>
               <img
                 src={require('../../assets/img/linkin.png')}
                 alt="img-contact"
@@ -36,7 +36,7 @@ export const Contact = () => {
             </div>
           </Col>
           <Col>
-            <div style={{ marginLeft: '50px', marginTop: '150px' }}>
+            <div style={{ marginLeft: '50px', marginTop: '130px' }}>
               <a
                 style={{ fontSize: '20px', marginBottom: '10px' }}
                 href="https://www.linkedin.com/in/nattida-pasutham-204a5b186/"
@@ -50,7 +50,7 @@ export const Contact = () => {
         </Row>
         <Row>
           <Col flex="100px">
-            <div style={{ marginLeft: '170px', marginTop: '100px' }}>
+            <div style={{ marginLeft: '170px', marginTop: '70px' }}>
               <img
                 src={require('../../assets/img/github.png')}
                 alt="img-contact"
@@ -59,7 +59,7 @@ export const Contact = () => {
             </div>
           </Col>
           <Col>
-            <div style={{ marginLeft: '50px', marginTop: '150px' }}>
+            <div style={{ marginLeft: '50px', marginTop: '130px' }}>
               <a
                 style={{ fontSize: '20px', marginBottom: '10px' }}
                 href="https://github.com/jaoaoun"
