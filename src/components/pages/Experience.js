@@ -21,7 +21,7 @@ export const Experience = () => {
           <Panel header="Aprill 2020 - May 2020 | Practice" key="1" className="site-collapse-custom-panel">
             <h2 style={{ marginBottom: '0px' }}>Practice frontend development</h2>
             <Text>
-              • Make your own resume website using by React&Antd
+              • Make your own resume website using by React & Antd
               <br />
               <div align="center">
                 <img
