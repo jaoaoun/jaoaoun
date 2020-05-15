@@ -35,28 +35,45 @@ export const ProfileBar = () => {
         >
           <div style={imgProfileStyle}>
             <Avatar size={180} img src={require('../../assets/img/IMG_2182.jpgcrop.jpg')} shape="circle" />
-            <p style={{ fontSize: '20px', textAlign: 'center', margin: '0' }}>Nattida Pasutham</p>
+            <div style={{ fontSize: '20px', textAlign: 'center', margin: '0' }}>
+              <a href="/" style={{ color: 'rgb(114,68,67)' }}>
+                Nattida Pasutham
+              </a>
+            </div>
             <p style={{ fontSize: '15px', textAlign: 'center', margin: '0' }}>Software Engineer</p>
           </div>
-          <div className="nav">
+          <div className="nav" style={{ scrollBehavior: 'smooth' }}>
             <Menu backgroundColor="rgb(236,231,225)" mode="inline" defaultSelectedKeys={['1']}>
               <MenuItem key="1">
-                <a href="#home">Home</a>
+                <a href="#home" style={{ scrollBehavior: 'smooth' }}>
+                  Home
+                </a>
               </MenuItem>
               <MenuItem key="2">
-                <a href="#about"> About</a>
+                <a href="#about" style={{ scrollBehavior: 'smooth' }}>
+                  {' '}
+                  About
+                </a>
               </MenuItem>
               <MenuItem key="3">
-                <a href="#skills">Skills </a>
+                <a href="#skills" style={{ scrollBehavior: 'smooth' }}>
+                  Skills{' '}
+                </a>
               </MenuItem>
               <MenuItem key="4">
-                <a href="#education">Education</a>
+                <a href="#education" style={{ scrollBehavior: 'smooth' }}>
+                  Education
+                </a>
               </MenuItem>
               <MenuItem key="5">
-                <a href="#experience">Experience</a>
+                <a href="#experience" style={{ scrollBehavior: 'smooth' }}>
+                  Experience
+                </a>
               </MenuItem>
               <MenuItem key="6">
-                <a href="#contact">Contact</a>
+                <a href="#contact" style={{ scrollBehavior: 'smooth' }}>
+                  Contact
+                </a>
               </MenuItem>
             </Menu>
           </div>
@@ -64,7 +81,7 @@ export const ProfileBar = () => {
         <Layout>
           <div style={{ margin: 24 }}>
             <Content style={{ padding: 0 }}>
-              <div className="site-layout-background" style={{ padding: 24, minHeight: 720 }}>
+              <div className="site-layout-background" style={{ padding: 24, minHeight: 720, scrollBehavior: 'smooth' }}>
                 <Route>
                   <Slide bottom className="reveal-page1">
                     <Home />

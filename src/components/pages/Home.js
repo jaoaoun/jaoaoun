@@ -7,8 +7,8 @@ import { DownloadOutlined } from '@ant-design/icons'
 
 export const Home = () => {
   return (
-    <div section="home" id="home" style={{ marginBottom: '50px' }}>
-      <div style={{ marginBottom: '35px' }}>
+    <div section="home" id="home" style={{ marginBottom: '55px', marginTop: '15px' }}>
+      <div style={{ marginBottom: '45px' }}>
         <h1 style={{ fontSize: '15px' }}>Home</h1>
       </div>
       <div>
