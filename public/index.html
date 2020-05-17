@@ -15,6 +15,34 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <script language=JavaScript>
+      <!--
+      ///////////////////////////////////
+      function clickIE() {if (document.all) {alert(message);return false;}}
+      function clickNS(e) {if 
+      (document.layers||(document.getElementById&&!document.all)) {
+      if (e.which==2||e.which==3) {alert(message);return false;}}}
+      if (document.layers) 
+      {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+      else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+      document.oncontextmenu=new Function("return false")
+
+      //No Copy
+      function disableselect(e){
+        return false
+      }
+      function reEnable(){
+        return true
+      }
+      //if IE4+
+      document.onselectstart=new Function ("return false")
+      //if NS6
+      if (window.sidebar){
+      document.onmousedown=disableselect
+      document.onclick=reEnable
+      }
+      // --> 
+      </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
