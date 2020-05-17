@@ -18,7 +18,7 @@ export const Experience = () => {
           className="site-collapse-custom-collapse"
           style={{ width: '85%', marginLeft: '10%', marginTop: '40px', backgroundColor: '#f7f1f2' }}
         >
-          <Panel header="Aprill 2020 - May 2020 | Practice" key="1" className="site-collapse-custom-panel">
+          <Panel header="April 2020 - May 2020 | Practice" key="1" className="site-collapse-custom-panel">
             <h2 style={{ marginBottom: '0px' }}>Practice frontend development</h2>
             <Text>
               • Make your own resume website using by React & Antd
