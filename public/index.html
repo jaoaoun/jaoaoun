@@ -42,6 +42,44 @@
       document.onclick=reEnable
       }
       // --> 
+
+      function disableCtrlKeyCombination(e){
+//list all CTRL + key combinations you want to disable
+var forbiddenKeys = new Array('a', 'c', 's', 'u', 'x');
+var key;
+var isCtrl;
+
+if(window.event){
+   key = window.event.keyCode;   //IE
+   if(window.event.ctrlKey) isCtrl = true;
+   else isCtrl = false;
+}
+else{
+   key = e.which;   //firefox
+   if(e.ctrlKey) isCtrl = true;
+   else isCtrl = false;
+}
+
+//if ctrl is pressed check if other key is in forbidenKeys array
+if(isCtrl){
+   for(i=0; i<forbiddenKeys .length; i++){
+      //case-insensitive comparation
+      if(forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()){
+         alert('Key combination CTRL + '+String.fromCharCode(key)+' has been disabled.');
+         return false;
+      }
+   }
+}
+return true;
+}
+
+ document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117 || e.keyCode === 16 || e.keyCode === 17 || e.keyCode === 73 )) 
+            {//Alt+c, Alt+v will also be disabled sadly. 16-Shift 17 Ctrl 73 i
+                alert('not allowed');
+            }
+            return false;
+    };
       </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
