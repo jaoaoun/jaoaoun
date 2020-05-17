@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route path="/jaoaoun">
+          <Route path="/">
             <ProfileBar />
           </Route>
 {/*           

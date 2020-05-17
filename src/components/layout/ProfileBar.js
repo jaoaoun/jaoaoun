@@ -36,7 +36,7 @@ export const ProfileBar = () => {
           <div style={imgProfileStyle}>
             <Avatar size={180} img src={require('../../assets/img/IMG_2182.jpgcrop.jpg')} shape="circle" />
             <div style={{ fontSize: '20px', textAlign: 'center', margin: '0' }}>
-              <a href="/jaoaoun" style={{ color: 'rgb(114,68,67)' }}>
+              <a href="/" style={{ color: 'rgb(114,68,67)' }}>
                 Nattida Pasutham
               </a>
             </div>
