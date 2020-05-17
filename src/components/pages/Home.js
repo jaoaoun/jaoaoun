@@ -1,7 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css'
 import '../../css/Home.css'
-import pdf from '../../assets/Waiting for revise.pdf'
+import pdf from '../../assets/Nattida_Pst.pdf'
 import { Carousel, Button, Card, Col, Row } from 'antd'
 import { DownloadOutlined } from '@ant-design/icons'
 
