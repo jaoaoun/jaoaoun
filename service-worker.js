@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/resume-ntdpst/precache-manifest.62c12efaea56b3300257f23c2e812d86.js"
+  "/resume-ntdpst/precache-manifest.1037692306e63eacc1b9b07d1c41ed73.js"
 );
 
 self.addEventListener('message', (event) => {
