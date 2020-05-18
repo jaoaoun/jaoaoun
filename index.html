@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Sorayuth's Porfolio.">
+    <title>O - Portfolio</title>
+    <!-- for chrome mobile -->
+    <meta name="theme-color" content="#222">
+    <link rel="icon" sizes="192x192" href="assets/self/img/manager.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/self/css/style.css">
+    <!-- Google Font -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link async href="https://fonts.googleapis.com/css?family=Lobster|Roboto+Mono|PT+Sans|Comfortaa" rel="stylesheet">
+    <!-- ScrollReveal JS -->
+    <script src="assets/lib/js/scrollreveal.min.js"></script>
+    <script>
+        window.sr = ScrollReveal();
+        if (sr.isSupported()) {
+            document.documentElement.classList.add('sr');
+        }
+    </script>
+
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        #info {
+            background-color: #e8ecfb;
+            padding-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- JS -->
+    <script>
+        window.onscroll = function () {
+            topAppear()
+        };
+    </script>
+    <script>
+        setTimeout(function () {
+            document.getElementById("subtitle").style.opacity = "1";
+        }, 2000);
+        setTimeout(function () {
+            document.getElementById("firstbutton").style.opacity = "1";
+        }, 2200);
+    </script>
+    <!-- Top navbar -->
+    <section id="topbar">
+        <div class="container-fluid title-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="#hello" style="text-decoration: none;">
+                        <h3 class="title" style="margin-top: .5rem;">O -Portfolio</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- top image -->
+    <div id="hello" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12" style="padding: 0;">
+                <div id="title">
+                    <center>
+                        <div style="height: 45px;">
+                        </div>
+                        <div data-paroller-factor="-0.30" data-paroller-type="foreground" class="typewriter" style="padding: 0% 10%; margin-bottom: 50px;">
+                            <h2>Welcome to my Profile</h2>
+                            <h3 id="subtitle" style="font-family: 'Roboto Mono', monospace; font-size: 1.4em">O'Sorayuth</h3>
+                        </div>
+                        <div id="firstbutton-wrapper" data-paroller-factor="-0.30" data-paroller-type="foreground">
+                            <a id="firstbutton" class="button" href="#who-am-i">About me click here</a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contacts -->
+    <!-- who am i -->
+    <section id="who-am-i" data-paroller-factor="0.1" style="padding: 100px 60px 130px 60px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col" style="font-family: 'Comfortaa', cursive;">
+                    <div id="intro-title">
+                        <h2 style="margin-bottom: 40px;">
+                            <b>About Me</b>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div id="intro-inner" class="row" style="padding: 0px 20px;">
+                <div class="col-lg-4 col-md-5">
+                    <img src="assets/self/imgO.jpg" alt="Profile Picture" style="width: 100%;" />
+                </div>
+                <div id="intro-content" class="col-lg-8 col-md-7">
+                    <b>Name: </b>Sorayuth Charoensrisan
+                    <br>
+                    <b>Age: </b>20 years old
+                    <br>
+                    <b>Location: </b>Bangkok, Thailand
+                    <br>
+                    <br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Hi! I'm a university student who love coding. Recently, web and mobile development and UX/UI
+                        design have been my main interests. Apart from coding I also love to travel and take photographs.
+                        I'm also capable of photo/video editing and drawing too! Cool, isn't it?</p>
+                </div>
+            </div>
+            <div id="icon-scroll" class="row">
+                <div class="col-sm-12">
+                    <a href="#education" style="position: inherit;">
+                        <div class='icon-scroll'></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- education -->
+    <section id="education" data-paroller-factor="0.2" data-paroller-direction="horizontal" style="padding: 80px 0px 200px 0px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col" style="font-family: 'Comfortaa', cursive; color: whitesmoke; font-size: 1.1em;">
+                    <center>
+                        <!-- title -->
+                        <h1 style="margin-bottom: 40px; color: white;">
+                            <b style=" border-bottom: 4px whitesmoke solid">Education</b>
+                        </h1>
+
+                        <!--home school
+                        <div id="home-school" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/nipple.png" alt="nipple" style="width: 100px; margin-bottom: 8px;">
+                            <p>
+                                <b>Home School&nbsp; [ waa waa~ ]</b>
+                                <br>(Born - 2000)</p>
+                        </div>
+                        <div id="timeline1" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/timeline1.png" alt="timeline" style="height: 300px;">
+                        </div>
+                        <!-- kindergarten --><!--
+                        <div id="kindergarten" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/kindergarten.png" alt="kindergarten" style="width: 100px; margin-bottom: 8px;">
+                            <p>
+                                <b>Marialai School</b>
+                                <br>Kindergartener
+                                <br>(2000 - 2002)</p>
+                        </div>
+                        <div id="timeline2" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/timeline2.png" alt="timeline" style="height: 300px;">
+                        </div>
+                        <!-- elementary school --><!--
+                        <div id="elementary-school" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/elementary.png" alt="elementary school" style="width: 100px; margin-bottom: 8px;">
+                            <p>
+                                <b>Marialai School</b>
+                                <br>Elementary schooler
+                                <br>(2003 - 2008)</p>
+                        </div>
+                        <div id="timeline3" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/timeline2.png" alt="timeline" style="height: 300px;">
+                        </div>
+                        <!-- middle & high school -->
+                        <div id="high-school" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/highschool.png" alt="high school" style="width: 100px; margin-bottom: 8px;">
+                            <p>
+                                <b>Assumption College Thonburi School</b>
+                                <br>Middle schooler&nbsp; &&nbsp; High schooler&nbsp;&nbsp;&nbsp;
+                                <br>(2009 - 2015)</p>
+                        </div>
+                        <div id="timeline4" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/timeline3.png" alt="timeline" style="height: 300px;">
+                        </div>
+                        <div id="university" style="padding: 10px 0px;">
+                            <img src="assets/self/img/educations/ungrad.png" alt="ungrad" style="width: 200px;">
+                            <p>
+                                <b>King Mongkut's Institute of Technology Ladkrabang
+                                    <br>Bachelor's Degree in Information Engineering</b>
+                                <br>GPA: 2.07
+                                <br>(2016 - PRESENT)</p>
+                        </div>
+                        <p id="edu-quote">"You are never walk alone."</p>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- knowledges -->
+    <section id="knowledge" style="padding: 80px 0px 80px 0px;">
+        <div class="container-fluid" style="font-family: 'Comfortaa', cursive;">
+            <center>
+                <!-- titile -->
+                <h1 id="knowledge-title" style="margin-bottom: 45px;">
+                    <b style=" border-bottom: 4px black solid">Knowledge and Skills</b>
+                </h1>
+            </center>
+            <div class="row" style="width: 70%; margin: 20px auto;">
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="assets/self/img/knowledges/webdev.png" alt="Web dev card">
+                        <div class="card-block">
+                            <h4 class="card-title">Web Dev.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="assets/self/img/knowledges/git.png" alt="Git card">
+                        <div class="card-block">
+                            <h4 class="card-title">Git</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <!--<img class="card-img-top" src="assets/self/img/knowledges/react.png" alt="React card">-->
+                        <div class="card-block">
+                            <h4 class="card-title">ReactJS</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <!--<img class="card-img-top" src="assets/self/img/knowledges/xd.png" alt="XD card">-->
+                        <div class="card-block">
+                            <h4 class="card-title">Adobe XD</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="assets/self/img/knowledges/android.png" alt="Android card">
+                        <div class="card-block">
+                            <h4 class="card-title">Android</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="assets/self/img/knowledges/java.png" alt="JAVA card">
+                        <div class="card-block">
+                            <h4 class="card-title">JAVA</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <!--<img class="card-img-top" src="assets/self/img/knowledges/cam.png" alt="Cam card">-->
+                        <div class="card-block">
+                            <h4 class="card-title">Photography</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-4 col-6">
+                    <div class="card" style="width: 100%;">
+                        <img class="card-img-top" src="assets/self/img/knowledges/pslr.png" alt="Adobe card">
+                        <div class="card-block">
+                            <h4 class="card-title">Ps and Lr</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- showcase -->
+    <section id="showcase" data-paroller-factor="0.5">
+        <div class="container-fluid" style="font-family: 'Comfortaa', cursive; padding: 0px 0px 40px 0px;">
+            <div class="row">
+                <div class="col" style="text-align: center;">
+                    <center>
+                        <section id="contacts-bottom">
+                            <!-- <a href="https://www.github.com/KorKiak" target="_blank" rel="noopenner"> -->
+                                <img src="./assets/self/img/icons/github.png">
+                            </a>
+                            <!-- <a href="https://www.facebook.com/Sbkkrak" target="_blank" rel="noopenner"> -->
+                                <img src="./assets/self/img/icons/facebook.png">
+                            </a>
+                            <!-- <a href="https://www.linkedin.com/in/tanitk" target="_blank" rel="noopenner"> -->
+                                <img src="./assets/self/img/icons/linkedin.png">
+                            </a>
+                            <!-- <a href="mailto: tanit_kositsri@hotmail.com"> -->
+                                <img src="./assets/self/img/icons/envelope.png">
+                            </a>
+                        </section>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="assets/lib/js/smooth-scroll.polyfills.min.js"></script>
+    <script>
+        var scroll = new SmoothScroll();
+        var smoothScrollWithoutHash = function (selector, settings) {
+            /**
+             * If smooth scroll element clicked, animate scroll
+             */
+            var clickHandler = function (event) {
+                var toggle = event.target.closest(selector);
+                console.log(toggle);
+                if (!toggle || toggle.tagName.toLowerCase() !== 'a') return;
+                console.log(toggle.hash);
+                var anchor = document.querySelector(toggle.hash);
+                if (!anchor) return;
+
+                event.preventDefault(); // Prevent default click event
+                scroll.animateScroll(anchor, toggle, settings || {}); // Animate scroll
+            };
+
+            window.addEventListener('click', clickHandler, false);
+        };
+
+        // Run our function
+        smoothScrollWithoutHash('a[href*="#"]', {
+            easing: 'easeInOutCubic',
+            speed: 1000
+        });
+    </script>
+    <script>
+        function topAppear() {
+            setTimeout(function () {
+                if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+                    document.getElementById("topbar").style.opacity = "1";
+                    document.getElementById("topbar").style.visibility = "visible";
+                } else if (document.body.scrollTop < 600 || document.documentElement.scrollTop < 600) {
+                    document.getElementById("topbar").style.opacity = "0";
+                }
+            }, 500);
+
+        }
+    </script>
+
+    <!-- scrollReveal JS -->
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal(".card", {
+            reset: false,
+            viewFactor: 0.8,
+            rotate: {
+                x: 20,
+                y: 20,
+                Z: 0
+            },
+            delay: 200
+        }, 100);
+        sr.reveal("#intro-title", {
+            reset: false,
+            delay: 460
+        }, 100);
+        sr.reveal("#intro-inner", {
+            reset: false,
+            delay: 700
+        }, 100);
+        sr.reveal("#knowledge-title", {
+            reset: false,
+            viewFactor: 0.8,
+            rotate: {
+                x: 20,
+                y: 20,
+                Z: 0
+            },
+            delay: 200
+        }, 100);
+        sr.reveal("#home-school", {
+            reset: false,
+            delay: 460
+        }, 100);
+        sr.reveal("#timeline1", {
+            reset: false,
+            scale: 0.8,
+            origin: 'top',
+            delay: 580
+        }, 100);
+        sr.reveal("#kindergarten", {
+            reset: false,
+            scale: 0.8,
+            delay: 700
+        }, 100);
+        sr.reveal("#timeline2", {
+            reset: false,
+            scale: 0.8,
+            origin: 'top',
+            delay: 650
+        }, 100);
+        sr.reveal("#elementary-school", {
+            reset: false,
+            scale: 0.8,
+            delay: 650
+        }, 100);
+        sr.reveal("#timeline3", {
+            reset: false,
+            scale: 0.8,
+            origin: 'top',
+            delay: 650
+        }, 100);
+        sr.reveal("#high-school", {
+            reset: false,
+            scale: 0.8,
+            delay: 650
+        }, 100);
+        sr.reveal("#timeline4", {
+            reset: false,
+            scale: 0.8,
+            origin: 'top',
+            delay: 650
+        }, 100);
+        sr.reveal("#university", {
+            reset: false,
+            scale: 0.8,
+            delay: 650
+        }, 100);
+        sr.reveal("#edu-quote", {
+            reset: false,
+            scale: 0.7,
+            viewFactor: 0.8,
+            delay: 300
+        }, 100);
+    </script>
+
+    <!-- jQuery and Tether first, then Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+    <script src="assets/lib/js/bootstrap.min.js"></script>
+    <script src="assets/lib/js/jquery.paroller.js"></script>
+    <script>
+        $(function () {
+            $(window).paroller();
+        })
+    </script>
+</body>
+<footer style="background-color: hsla(190,100%,5%,0.6); height: 25px; color: white; text-align: center; font-family: 'Comfortaa', cursive;">
+    EDITED by Sorayuth C. &nbsp; | &nbsp;Credit by Tanit K : (C)Copyright 2019. All Rights Reserved.
+</footer>
+
+</html>
