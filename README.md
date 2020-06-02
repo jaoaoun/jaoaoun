@@ -2,7 +2,7 @@
 
 Use React and Ant design 
 
-![JaoaounResume](dataflow.JPG)
+![JaoaounResume](/media/dataflow.JPG)
     
    This purposed of this project, is to introduce my self. 
 ---
