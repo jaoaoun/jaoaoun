@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/jaoaoun.github.io/static/css/main.10177824.chunk.css",
-    "main.js": "/jaoaoun.github.io/static/js/main.13b12c36.chunk.js",
-    "main.js.map": "/jaoaoun.github.io/static/js/main.13b12c36.chunk.js.map",
+    "main.js": "/jaoaoun.github.io/static/js/main.b8f70b2c.chunk.js",
+    "main.js.map": "/jaoaoun.github.io/static/js/main.b8f70b2c.chunk.js.map",
     "runtime-main.js": "/jaoaoun.github.io/static/js/runtime-main.55b81f61.js",
     "runtime-main.js.map": "/jaoaoun.github.io/static/js/runtime-main.55b81f61.js.map",
     "static/css/2.35fcc229.chunk.css": "/jaoaoun.github.io/static/css/2.35fcc229.chunk.css",
-    "static/js/2.982d9311.chunk.js": "/jaoaoun.github.io/static/js/2.982d9311.chunk.js",
-    "static/js/2.982d9311.chunk.js.map": "/jaoaoun.github.io/static/js/2.982d9311.chunk.js.map",
+    "static/js/2.694dfd78.chunk.js": "/jaoaoun.github.io/static/js/2.694dfd78.chunk.js",
+    "static/js/2.694dfd78.chunk.js.map": "/jaoaoun.github.io/static/js/2.694dfd78.chunk.js.map",
     "index.html": "/jaoaoun.github.io/index.html",
-    "precache-manifest.0f400d1696c04a1069e2bcb4d79a7485.js": "/jaoaoun.github.io/precache-manifest.0f400d1696c04a1069e2bcb4d79a7485.js",
+    "precache-manifest.ee157fb9cb97ed9186edf24b68cb1375.js": "/jaoaoun.github.io/precache-manifest.ee157fb9cb97ed9186edf24b68cb1375.js",
     "service-worker.js": "/jaoaoun.github.io/service-worker.js",
     "static/css/2.35fcc229.chunk.css.map": "/jaoaoun.github.io/static/css/2.35fcc229.chunk.css.map",
     "static/css/main.10177824.chunk.css.map": "/jaoaoun.github.io/static/css/main.10177824.chunk.css.map",
-    "static/js/2.982d9311.chunk.js.LICENSE.txt": "/jaoaoun.github.io/static/js/2.982d9311.chunk.js.LICENSE.txt",
+    "static/js/2.694dfd78.chunk.js.LICENSE.txt": "/jaoaoun.github.io/static/js/2.694dfd78.chunk.js.LICENSE.txt",
     "static/media/CAN.JPG": "/jaoaoun.github.io/static/media/CAN.834948f2.JPG",
     "static/media/Cer-ko.JPG": "/jaoaoun.github.io/static/media/Cer-ko.210e9b7c.JPG",
     "static/media/GCPR3484.JPEG": "/jaoaoun.github.io/static/media/GCPR3484.4e6e2d3a.JPEG",
@@ -28,6 +28,8 @@
     "static/media/ch_n.jpg": "/jaoaoun.github.io/static/media/ch_n.caea0d85.jpg",
     "static/media/cru.png": "/jaoaoun.github.io/static/media/cru.c590418e.png",
     "static/media/education.png": "/jaoaoun.github.io/static/media/education.c5e34979.png",
+    "static/media/figma.png": "/jaoaoun.github.io/static/media/figma.75a2f688.png",
+    "static/media/git.png": "/jaoaoun.github.io/static/media/git.19fa5a4d.png",
     "static/media/github.png": "/jaoaoun.github.io/static/media/github.4cd8e3c8.png",
     "static/media/hcj.jpg": "/jaoaoun.github.io/static/media/hcj.f4556ff6.jpg",
     "static/media/home2.jpg": "/jaoaoun.github.io/static/media/home2.19a906b6.jpg",
@@ -39,13 +41,14 @@
     "static/media/project.jpg": "/jaoaoun.github.io/static/media/project.93ac91b5.jpg",
     "static/media/reactstrap.JPG": "/jaoaoun.github.io/static/media/reactstrap.ebe2c809.JPG",
     "static/media/sal2_n.jpg": "/jaoaoun.github.io/static/media/sal2_n.5b34f51f.jpg",
+    "static/media/sql.png": "/jaoaoun.github.io/static/media/sql.21812f6d.png",
     "static/media/webresume.JPG": "/jaoaoun.github.io/static/media/webresume.937031f4.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.55b81f61.js",
     "static/css/2.35fcc229.chunk.css",
-    "static/js/2.982d9311.chunk.js",
+    "static/js/2.694dfd78.chunk.js",
     "static/css/main.10177824.chunk.css",
-    "static/js/main.13b12c36.chunk.js"
+    "static/js/main.b8f70b2c.chunk.js"
   ]
 }

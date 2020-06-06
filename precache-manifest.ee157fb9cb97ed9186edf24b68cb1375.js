@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7c60263c1e47df66edf2cfe76989dec6",
+    "revision": "e7072f0e974f9447c36b23fb06eda575",
     "url": "/jaoaoun.github.io/index.html"
   },
   {
-    "revision": "cec862cc32f368bfdb30",
+    "revision": "bf2c5976e74a9ecd8d1d",
     "url": "/jaoaoun.github.io/static/css/2.35fcc229.chunk.css"
   },
   {
-    "revision": "e74abf8474b79cff6fce",
+    "revision": "f38164a4665dba165d62",
     "url": "/jaoaoun.github.io/static/css/main.10177824.chunk.css"
   },
   {
-    "revision": "cec862cc32f368bfdb30",
-    "url": "/jaoaoun.github.io/static/js/2.982d9311.chunk.js"
+    "revision": "bf2c5976e74a9ecd8d1d",
+    "url": "/jaoaoun.github.io/static/js/2.694dfd78.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/jaoaoun.github.io/static/js/2.982d9311.chunk.js.LICENSE.txt"
+    "url": "/jaoaoun.github.io/static/js/2.694dfd78.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e74abf8474b79cff6fce",
-    "url": "/jaoaoun.github.io/static/js/main.13b12c36.chunk.js"
+    "revision": "f38164a4665dba165d62",
+    "url": "/jaoaoun.github.io/static/js/main.b8f70b2c.chunk.js"
   },
   {
     "revision": "2ab497be376405218308",
@@ -84,6 +84,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jaoaoun.github.io/static/media/education.c5e34979.png"
   },
   {
+    "revision": "75a2f688143ddf70ed021534f31a97c9",
+    "url": "/jaoaoun.github.io/static/media/figma.75a2f688.png"
+  },
+  {
+    "revision": "19fa5a4d4dafe5c1c9fed7a9aa535ef5",
+    "url": "/jaoaoun.github.io/static/media/git.19fa5a4d.png"
+  },
+  {
     "revision": "4cd8e3c8ee61bbc14689db9f5c34b356",
     "url": "/jaoaoun.github.io/static/media/github.4cd8e3c8.png"
   },
@@ -126,6 +134,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5b34f51fcfd272b5de811cf8e0f035ff",
     "url": "/jaoaoun.github.io/static/media/sal2_n.5b34f51f.jpg"
+  },
+  {
+    "revision": "21812f6d8d4844da17453b80216a4445",
+    "url": "/jaoaoun.github.io/static/media/sql.21812f6d.png"
   },
   {
     "revision": "937031f418f632714088265e0f16deaf",
